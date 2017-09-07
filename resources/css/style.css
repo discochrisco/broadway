@@ -2,22 +2,50 @@ body {
   font-family: helvetica, sans-serif;
   text-align: center;
 }
-.head h1 {
-  font-size: 70px;
-  font-weight: bold;
-}
-.head {
-  display: block;
-  background-image: url('/resources/images/flatiron.png');
-  background-position:center;
-  text-align: center;
-  color: white;
-}
 h2 {
   font-size: 32px;
   font-weight: bold;
 }
+
+.head h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+.head {
+  display: block;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-position:center;
+}
+.btn-nav {
+  font-size: 18px;
+  color: white !important;
+  text-decoration: underline;
+}
 .subhead {
-  background-image: url('/resources/images/flatiron.png')
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   background-position: center;
+  height: 26px;
+  color: white;
+  margin: auto;
+}
+.supporting-item p {
+  font-size: 14px;
+  font-weight: normal;
+}
+.supporting-item {
+  font-size: 23px;
+  font-weight: bold;
+}
+.footer{
+  text-align: left;
+  background-color: dimgray;
+}
+.footer p {
+  font-size: 11px;
+  color: white;
+}
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
 }
